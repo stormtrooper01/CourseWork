@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0, minimum-scale=1">
+    <title>Huffman</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="HuffmanAlgorithm.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1> Алгоритм Хаффмана </h1>
+    </header>
+    <!-- Шифрування -->
+    <div class="box enCoder">
+        <h2> Шифрування </h2>
+        <textarea type="text" id="enCoder" placeholder="впишіть текст тут" autofocus></textarea>
+        <table>
+            <tbody>
+                <tr>
+                    <th>Символ</th>
+                    <th>Частота</th>
+                    <th>%</th>
+                    <th>Кодування</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- Розшифрування -->
+    <div class="box deCoder">
+        <h3> Розшифрування </h3>
+        <textarea disabled type="text" id="deCoder" placeholder="вставте кодування (приймає значення 0 і 1)"></textarea>
+        <div id="result"></div>
+    </div>
+    
+</body>
+</html>

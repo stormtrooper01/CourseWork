@@ -1,0 +1,91 @@
+*{
+    color: #1A1145;
+    font-style: normal;
+}
+textarea {
+    width: 95%;
+    border: 5px solid #A4E6ED;
+    padding: 5px;
+    margin: 2px 0;
+}
+
+.box {
+    background-color: #E2EFF0;
+    width: 46%;
+    padding: 11px;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+    border: 1px solid #2942A8; 
+    box-shadow: 11px 10px 5px 1px #DFDFDF;
+}
+.box h2 {
+    border-bottom: 1px solid rgb(229, 229, 229);
+    border-left: 1px solid rgb(244, 244, 244);
+    padding: 5px;
+}
+
+.box #result {
+    background: #6786DB;
+    color: #fff; 
+    padding: 5px;
+    word-wrap: break-word;
+}
+
+/* table */
+table {
+    width: 100%;
+    box-shadow: -3px 3px #808080; 
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+table, th {
+    border-bottom: 2px solid white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table tr {
+    overflow: hidden;
+    width: 20px;
+}
+
+table th {
+    background-color: #6786DB;
+    color: #fff;
+}
+
+.code {
+    word-break: break-all;
+}
+/* end table */
+
+/*Media for small screens*/
+@media all and (max-width: 800px) {
+    .deCoder {
+        width: 90%;
+        float: left;
+    }
+    .enCoder {
+        width: 90%;
+        float: left;
+    }
+    .graph {
+        width: 90%;
+        float: left;
+    }
+}
