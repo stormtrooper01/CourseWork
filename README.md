@@ -1,2 +1,2 @@
 #Course Work
-Course work from the very first semester in university
+Course work from the very first year in university
